@@ -5,6 +5,9 @@
     <color name="colorAccent">#34495e</color>
     <color name="colorText">#212121</color>
 
+    <!-- Coca Cola Primary: #e74c3c PrimaryDark: #c0392b -->
+    <!-- Facebook Primary: #243a72 PrimaryDark: #1d3368 -->
+
     <color name="babyblue">#3498db</color>
     <color name="cloudwhite">#ecf0f1</color>
 </resources>
