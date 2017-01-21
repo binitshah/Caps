@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#e74c3c</color>
-    <color name="colorPrimaryDark">#c0392b</color>
+    <color name="colorPrimary">#e67e22</color>
+    <color name="colorPrimaryDark">#d35400</color>
     <color name="colorAccent">#34495e</color>
     <color name="colorText">#212121</color>
+    <color name="colorIcon">#565656</color>
 
     <!-- Coca Cola Primary: #e74c3c PrimaryDark: #c0392b -->
     <!-- Facebook Primary: #243a72 PrimaryDark: #1d3368 -->
+    <!-- FlatUIPurple Primary: #9b59b6 PrimaryDark: #8e44ad -->
+    <!-- FlatUIOrange Primary: #e67e22 PrimaryDark: #d35400 -->
 
     <color name="babyblue">#3498db</color>
-    <color name="cloudwhite">#ecf0f1</color>
 </resources>

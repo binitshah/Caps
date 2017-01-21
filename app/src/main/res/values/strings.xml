@@ -1,10 +1,38 @@
 <resources>
+    <!-- Titles -->
     <string name="app_name">Caps</string>
     <string name="action_settings">Settings</string>
+
+    <!-- MainActivity -->
     <string name="propicholder_imagedescription">Your profile picture</string>
-    <string name="searchbar_hint">Search</string>
     <string name="submitbuttontext">Pop a cap</string>
     <string name="randombuttontext">Cap a top</string>
+
+    <!-- SigninActivity -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="facebook_button">Sign in with Facebook</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="email_required_error">Email required</string>
+    <string name="email_notvalid_error">Email not valid</string>
+    <string name="password_required_error">Password required</string>
+    <string name="password_tooshort_error">Password must be longer than 6 characters</string>
+
+
+    <!-- WelcomeActivity -->
+    <string name="welcome_signup_button">Sign me up!</string>
+    <string name="tryout_button">Lemme try it!</string>
+    <string name="header_imagedescription">Header Image</string>
+    <string name="title1">Title 1</string>
+    <string name="title2">Title 2</string>
+    <string name="title3">Title 3</string>
+    <string name="title4">Title 4</string>
+    <string name="generic_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam sapien id interdum sollicitudin. Donec auctor felis lobortis augue volutpat dignissim. Curabitur eleifend dolor iaculis congue vestibulum. Cras scelerisque hendrerit.</string>
+
+
+    <!-- filter strings -->
     <string name="distance_title">Distance: 5 miles</string>
     <string name="distanceprefix">Distance:</string>
     <string name="distancepostfix">miles</string>
@@ -12,18 +40,27 @@
     <string name="price_title">Price: $19</string>
     <string name="indoor_title">Indoor</string>
     <string name="outdoor_title">Outdoor</string>
-    <string name="expand">Expand</string>
-    <string name="compress">Compress</string>
-    <string name="noStringError">You gotta search for something tho</string>
-    <string name="title_activity_caps">Caps</string>
-    <string name="title_activity_signin">SigninActivity</string>
-    <string name="default_web_client_idd">444805634767-rrig7brg97j0o70hniu0kt36mkppas9i.apps.googleusercontent.com</string>
 
+    <!-- toasts -->
+    <string name="unabletosignin_error">Unable to sign you in</string>
+    <string name="googleservice_error">Google Play Services Error: Google play services needs to be updated.</string>
+    <string name="signedin">Signed in!</string>
+    <string name="progress_dialog">Loading</string>
+
+    <!-- IDs -->
+    <string name="default_web_client_idd">444805634767-rrig7brg97j0o70hniu0kt36mkppas9i.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1619917181660370</string>
+    <string name="fb_login_protocol_scheme">1619917181660370</string>
+
+    <!-- ??? -->
     <string name="firebase_status_fmt">Firebase User: %s</string>
     <string name="firebase_user_management">Firebase User Management</string>
-
     <string name="google_status_fmt">Google User: %s</string>
     <string name="google_title_text">Google Sign In</string>
     <string name="gap_detail">Title</string>
     <string name="cap_description">Lorem ipsum et cumset avoul tus. Confuton feqa tbe.</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- development purposes -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

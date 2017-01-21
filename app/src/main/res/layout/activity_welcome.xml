@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.binitshah.caps.WelcomeActivity"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/signin_logo2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logoinverted"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/welcome_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin_logo2"
+        android:layout_above="@+id/startbar" />
+
+    <LinearLayout
+        android:id="@+id/startbar"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tryout_button"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif"
+            android:theme="@style/InverseButton"
+            android:id="@+id/anonStart"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_signup_button"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif"
+            android:theme="@style/InverseButton"
+            android:id="@+id/signinStart"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

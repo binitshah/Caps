@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:id="@+id/cap_image"
-            android:background="@color/com_facebook_blue"
+            android:background="@color/babyblue"
             android:scaleType="fitXY"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
@@ -97,7 +97,7 @@
             android:layout_height="20dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:src="@drawable/genericpropic"
+            android:src="@drawable/ic_account_circle_black_24dp"
             android:contentDescription="@string/propicholder_imagedescription" />
 
     </RelativeLayout>
